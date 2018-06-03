@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.wrapper {
+  max-width: 99%;
+  margin: 0 auto;
+  background-color: #f0f8ff;
+
+
+}
+/* navigation */
+
+
+.nav {
+  height: 74px;
+  border-bottom: solid thin orange;
+  background-color: white;
+
+}
+
+#leftnav {
+
+  float: left;
+  list-style: none;
+  width: auto;
+  padding: 28px;
+
+
+}
+
+#rightnav {
+
+  float: right;
+  list-style: none;
+  width: auto;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+#leftnav li {
+  padding: 10px;
+  display: inline;
+  margin-left: 5px;
+
+
+}
+
+#rightnav li {
+  display: inline;
+  padding-top: 30px;
+  margin: 5px;
+  margin-right: 35px;
+}
+
+
+
+#leftnav a {
+  text-decoration: none;
+  color: black;
+  display: inline;
+
+}
+#rightnav a {
+  text-decoration: none;
+  color: black;
+}
+.imgtop {
+  float: left;
+  padding: 15px;
+  padding-left: 100px
+}
+#leftnav a:hover {
+
+  color: orange;
+}
+#rightnav a:hover {
+  color: orange;
+}
+/*navigation*/
+
+/*main*/
+
+.main {
+  height: 1000px;
+  border-bottom: solid thin orange;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FAF0E6;
+}
+
+
+.main a img {
+  margin: 40px 0;
+  text-align: center;
+
+}
+.main p {
+
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  font-family: serif;
+  font-size: 23px;
+}
+.main h3 {
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.main h1 {
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 400;
+  font-size: 80px;
+}
+#b1 {
+  padding: 10px;
+  margin: 0 auto;
+  background-color: orange;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 15px;
+
+
+}
+.button1 {
+  padding: 10px;
+  text-align: center;
+
+}
+.p {
+  background-color: orange;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+
+
+}
+.triangle {
+
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 30px 25px 30px;
+border-color: transparent transparent orange transparent;
+margin: 0 auto;
+text-align: center;
+
+}
+#small {
+  font-size: 17px;
+  padding: 10px;
+}
+#title {
+
+  text-align: center;
+  padding: 30px;
+  font-family: serif;
+  font-size: 23px;
+  height: auto;
+
+
+}
+.expect {
+  height: 320px;
+  border-bottom: solid thin orange;
+  background-color: white;
+
+}
+.expect .box {
+
+  float: left;
+  padding: 0px;
+  text-align: center;
+  width: 33%;
+
+
+}
+.login {
+  height: 300px;
+  border-bottom: solid thin orange;
+  background-color: #FAF0E6;
+}
+.login h5 {
+  text-align: center;
+  padding: 20px;
+  font-size: 17px;
+}
+.login p {
+  font-family: serif;
+  text-align: center;
+  padding: 30px;
+  font-size: 23px;
+}
+.form {
+  padding: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+#i1 {
+  width: 300px;
+  padding: 10px;
+  border: solid thin black;
+  border-radius: 5px;
+
+}
+#b2 {
+  width: 300px;
+  padding: 10px;
+  border: solid thin black;
+  border-radius: 5px;
+  background-color: orange;
+}
+.aply p {
+  font-family: serif;
+  text-align: center;
+  padding: 10px;
+  font-size: 23px;
+}
+.aplyp {
+  text-align: center;
+}
+.aply {
+  background-color: #FAF0E6;
+  height: 470px;
+  border-bottom: solid thin orange;
+
+}
+.circles {
+  padding: 10px;
+}
+
+
+.circles .comunity {
+  float: left;
+  width: 33%;
+  padding: 1px;
+  text-align: center;
+  background-color: #FAF0E6;
+
+
+}
+/*awards*/
+.awards {
+  height: 500px;
+  border-bottom: solid thin orange;
+  background-color: #FAF0E6;
+}
+
+.imgcup {
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.awards p {
+  font-family: serif;
+  text-align: center;
+  padding: 10px;
+  font-size: 23px;
+}
+
+.awards .ndplace {
+  float: left;
+  text-align: center;
+  width: 33%;
+  padding: 1px;
+
+}
+#smallp1 {
+  text-align: center;
+  clear: both;
+  font-size: 20px;
+  padding: 30px;
+}
+.social {
+  height: 100px;
+  border-bottom: solid thin orange;
+  padding: 40px;
+  text-align: center;
+  background-color: #FAF0E6;
+
+}
+.socimgfb {
+  float: left;
+  width: 47%;
+  padding: 20px;
+
+}
+.socimgtw {
+  float: right;
+  width: 46%;
+  padding: 20px;
+
+}
+
+.footer {
+  height: 150px;
+  border-bottom: solid thin  orange;
+  padding: 10px;
+  background-color: #FAF0E6;
+}
+
+.footer .cija {
+  float: left;
+  text-align: center;
+  width: 32%;
+  padding: 5px;
+}
